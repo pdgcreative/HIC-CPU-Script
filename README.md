@@ -4,7 +4,7 @@ This document provides a reference for managing the do_cpu_monitor.py script, wh
 
 Start the Script in the Background
 
-ohup /usr/bin/python3 /usr/local/bin/do_cpu_monitor.py > /var/log/do_cpu_monitor.log 2>&1 &
+nohup /usr/bin/python3 /usr/local/bin/do_cpu_monitor.py > /var/log/do_cpu_monitor.log 2>&1 &
 
 Check if the Script is Running
 
